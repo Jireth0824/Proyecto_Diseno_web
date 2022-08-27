@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(255, 199, 223);
+}
+p {
+    background-color: yellow;
+}
+.parrafos {
+    background-color: blue;
+}
+#parrafo {
+    background-color: red;
+}
