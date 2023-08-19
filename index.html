@@ -4,15 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>hello world</h1>
-    <p class="parrafo1">Hola mundo</p>
-    <p class="parrafo2" id="parrafo">Hola mundo</p>
+    
+    <h1>Items</h1>
+    <button onclick="crearTarjeta()">click</button>
 
-  <h2>bienvenidos</h2>
+    <div id="container"></div>
+
+    <div style="text-align:center;">
+        <style type="text/css">
+            table,th,td {
+                border: 2px solid black;
+            }
+        </style>
+            
+                <table style="width: 80%; text-align: center;">
+                    <tr>
+                        <td><strong>Raza</strong></td>
+                        <td><strong>Tamaño</strong></td>
+                        <td><strong>Calidad</strong></td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Lobo</td>
+                        <td>Mediano</td>
+                        <td>Alta</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Pastor</td>
+                        <td>Grande</td>
+                        <td>Media</td>
+                    </tr>
+                    <tr>
+                        <td>Schnauzer</td>
+                        <td>Pequeño</td>
+                        <td>Baja</td>
+                    </tr>
+                </table>
+            
+
+</style>
 
 
-  <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>

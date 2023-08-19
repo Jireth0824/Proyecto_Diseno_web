@@ -1,5 +1,10 @@
-const parrafo = document.querySelectorAll("p")
- console.log(parrafo)
 
-const titulo= document.getElementById("parrafo")
-    console.log(titulo)
+
+function crearTarjeta() {
+    let titulo = document.createElement("tr")
+    titulo.textContent = "hola"
+    
+
+    container = document.getElementById("container")
+    container.appendChild(titulo)
+}
